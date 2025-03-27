@@ -1,0 +1,55 @@
+## COMANDO DE NAVEGAÇÃO
+
+dir - Lista od diretórios da raiz
+
+cd ~ - Volta para o diretório raiz
+
+control + L - limpa o cmd
+
+
+
+## COMANDO DE CRIAÇÃO E EDIÇÃO
+
+mkdir - Cria um diretório
+
+mv - renomeia o diretório (mv teste alunota)
+
+rmdir - Exclui um diretório ou rm -d
+
+rm -r - deleta um diretório com arquivo dentro
+
+touch - Cria um arquivo dentro de um diretório (touch imagem.txt)
+
+mv - serve também para mudar um arquivo de diretório ($ mv ~/documents/teste/caue.html/index.html ~/documents/teste)
+
+rm - exclui o arquivo ($ rm "index.html")
+
+code . - Abre o vscode pelo git bash
+
+git init - 
+
+git add ou git add . - adiciona seu arquivo na stage (git add form1.html)
+
+git status -
+
+git commit -m "Projeto Inicial - Formulário HTML" 
+
+
+git config --global user.email "caue.valente@aluno.senai.br"
+
+$  git config --global user.name "CaueSenai"
+
+git log - mostra quem fez o commit
+
+git remote add origin https://github.com/CaueSoaresValente/projeto-grafico.git - Conecta nosso github com o git
+
+$ git remote -v - serve para conseguirmos ver o link do repositório (origin  https://github.com/CaueSoaresValente/projeto-grafico.git (fetch))
+(origin  https://github.com/CaueSoaresValente/projeto-grafico.git (push))
+
+git pull origin main - serve para nós extrairmos o que está no remoto(github)
+
+$ git push -u origin master - serve para nós mandarmos os nossos arquivos locais para o remoto(github), criando uma branche nova no github(remoto), chamada Master
+
+git branch -m master main - renomeia a branch local
+
+
